@@ -1,11 +1,11 @@
 coverage:
   status:
-    project:
+    project: #add everything under here, more options at https://docs.codecov.com/docs/commit-status
       default:
-        informational: true
-    patch:
-      default:
-        informational: true
+        # basic
+        target: auto #default
+        threshold: 0%
+        base: auto 
 
 comment:
   layout: 'diff, flags, files' # Remove items here to change the format
