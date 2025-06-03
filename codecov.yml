@@ -9,4 +9,8 @@ coverage:
 
 comment:
   layout: 'newheader, reach, diff, flags, files, newfooter'
+  behavior: default # <-- MUST be present
+  require_changes: false # <-- show full comment even if coverage didn’t change
+  require_base: false # optional – ignore missing base upload
+  require_head: true
   hide_comment_details: false

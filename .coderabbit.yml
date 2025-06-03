@@ -27,10 +27,5 @@ reviews:
   auto_review:
     enabled: true
     drafts: false
-finishing_touches:
-  enabled: false
 chat:
   auto_reply: true
-tools:
-  eslint:
-    enabled: false
