@@ -1,5 +1,5 @@
 import { expect, describe, it } from 'vitest';
-import { sum } from './calc';
+import { sum } from '../calc';
 
 describe('sum', () => {
   it('should return the sum of two numbers', () => {
