@@ -13,3 +13,5 @@ export const sqrt = (a: number) => Math.sqrt(a);
 export const log = (a: number) => Math.log(a);
 
 export const exp = (a: number) => Math.exp(a);
+
+export const sin = (a: number) => Math.sin(a);
