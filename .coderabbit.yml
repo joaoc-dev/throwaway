@@ -1,0 +1,31 @@
+language: en-US
+early_access: false
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+  assess_linked_issues: true
+  related_issues: true
+  path_instructions:
+    - path: 'src/pages/**'
+      instructions: 'Ensure Next.js page components follow best practices and are optimized for performance.'
+    - path: 'src/components/**'
+      instructions: 'Check that components are reusable, well-structured, and adhere to accessibility standards.'
+    - path: 'src/api/**'
+      instructions: 'Verify API routes handle errors gracefully and follow RESTful conventions.'
+    - path: 'src/styles/**'
+      instructions: 'Review styling for consistency and adherence to the design system.'
+    - path: 'src/utils/**'
+      instructions: 'Ensure utility functions are pure, well-documented, and tested.'
+    - path: 'tests/**'
+      instructions: 'Review test cases for completeness, clarity, and adherence to testing best practices.'
+    - path: '**/*.test.{js,ts,jsx,tsx}'
+      instructions: 'Ensure that test files effectively cover various scenarios and edge cases, and follow testing conventions.'
+  auto_review:
+    enabled: true
+    drafts: false
+chat:
+  auto_reply: true
