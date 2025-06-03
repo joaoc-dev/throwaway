@@ -34,7 +34,7 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: joaoc-dev/typescript-testing
+          slug: joaoc-dev/throwaway
 
       - name: Upload test results to Codecov
         if: ${{ !cancelled() }}
