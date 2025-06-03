@@ -15,3 +15,5 @@ export const log = (a: number) => Math.log(a);
 export const exp = (a: number) => Math.exp(a);
 
 export const sin = (a: number) => Math.sin(a);
+
+export const cos = (a: number) => Math.cos(a);
