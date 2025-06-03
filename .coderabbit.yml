@@ -20,12 +20,17 @@ reviews:
       instructions: 'Review styling for consistency and adherence to the design system.'
     - path: 'src/utils/**'
       instructions: 'Ensure utility functions are pure, well-documented, and tested.'
-    - path: 'tests/**'
+    - path: 'src/tests/**'
       instructions: 'Review test cases for completeness, clarity, and adherence to testing best practices.'
     - path: '**/*.test.{js,ts,jsx,tsx}'
       instructions: 'Ensure that test files effectively cover various scenarios and edge cases, and follow testing conventions.'
   auto_review:
     enabled: true
     drafts: false
+finishing_touches:
+  enabled: false
 chat:
   auto_reply: true
+tools:
+  eslint:
+    enabled: false

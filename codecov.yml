@@ -8,4 +8,5 @@ coverage:
         base: auto
 
 comment:
-  layout: 'diff, flags, files' # Remove items here to change the format
+  layout: 'newheader, reach, diff, flags, files, newfooter'
+  hide_comment_details: false
